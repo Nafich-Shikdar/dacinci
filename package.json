@@ -1,16 +1,14 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "homepage": "https://Nafich-Shikdar.github.io/dacinci",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -81,7 +79,6 @@
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1",
-    "gh-pages": "^5.0.0"
+    "vite": "^5.4.1"
   }
 }
