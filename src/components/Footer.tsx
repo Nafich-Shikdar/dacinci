@@ -11,21 +11,21 @@ export const Footer = () => {
           <div className="flex items-center gap-2">
             <span>©</span>
             <a 
-              href="https://lazukcorp.com" 
+              href="https://pixlefy.blogspot.com/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors font-medium"
             >
-              LAZUK CORP
+              Pixlefy
             </a>
             <span>|</span>
             <a 
-              href="https://lazukhasan.com" 
+              href="https://pixlefy.blogspot.com/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors font-medium"
             >
-              LAZUK HASAN
+              NAFICH
             </a>
           </div>
         </div>
